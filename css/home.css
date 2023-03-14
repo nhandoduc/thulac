@@ -1,0 +1,130 @@
+body {
+    background: #708090;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#mainNavbar {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navbar.scrolled {
+    background: #E6E6FA;
+    transition: background 500ms;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px #000000;
+    margin: 0 auto;
+    min-width: 360px;
+    max-width: 960px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul#main-menu {
+    display: flex;
+    padding: 0 20px;
+    background: rgb(51, 49, 46);
+    border-radius: 10px;
+}
+
+ul#main-menu a {
+    padding: 5px 5px;
+    display: block;
+    color: #F0F8FF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.8s;
+}
+
+a {
+    text-align: center;
+}
+
+ul#main-menu a:hover {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    background-color: #F0F8FF;
+    border-radius: 10px;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.logo {
+    margin-left: 20px;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    width: 300px;
+    transition: 1.2s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.logo:hover {
+    width: 320px;
+}
+
+.noidung {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8FF;
+    border-radius: 10px;
+    padding: 60px 60px 0 0;
+    margin-top: 30px;
+    max-width: 960px;
+    min-width: 370px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+
+h2 {
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #800000;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+.text-noidung {
+    text-align: center;
+    line-height: 30px;
+}
+
+.tachnoidung {
+    border-radius: 5px;
+    border: 1px solid #598381;
+    width: 200px;
+    margin: 30px;
+    margin-left: 100px;
+    background-color: #598381;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
