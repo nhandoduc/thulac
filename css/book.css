@@ -79,9 +79,6 @@ body {
     transition: 1.2s;
 }
 
-.logo:hover {
-    width: 370px;
-}
 
 .noidung {
     display: flex;
