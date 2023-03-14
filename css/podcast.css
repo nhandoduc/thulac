@@ -7,21 +7,6 @@ body {
     min-height: 100vh;
 }
 
-#mainNavbar {
-    justify-content: center;
-    flex-direction: column;
-}
-
-.navbar.scrolled {
-    background: #E6E6FA;
-    transition: background 500ms;
-    border-radius: 10px;
-    transition: 0.5s;
-    box-shadow: 0px 0px 20px #000000;
-    margin: 0 auto;
-    min-width: 360px;
-    max-width: 960px;
-}
 
 .noidung {
     display: flex;
@@ -42,10 +27,8 @@ body {
 }
 
 .logo {
-    margin-left: 20px;
+    margin-left: 50px;
     height: 100%;
-    margin-top: 50px;
-    margin-bottom: 80px;
     width: 300px;
     transition: 1.2s;
     border-radius: 10px;
@@ -63,7 +46,7 @@ body {
     font-size: 50px;
     font-weight: bold;
     color: #800000;
-    margin-top: 160px;
+    margin-top: 80px;
     margin-left: 50px;
 }
 
