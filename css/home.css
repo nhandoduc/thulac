@@ -7,21 +7,19 @@ body {
     min-height: 100vh;
 }
 
+/* .nav {
+    display: block;
+    margin: auto;
+
+} */
+
 #mainNavbar {
     justify-content: center;
     flex-direction: column;
+    /* background-color: #708090; */
+    margin-left: 10px;
 }
 
-.navbar.scrolled {
-    background: #E6E6FA;
-    transition: background 500ms;
-    border-radius: 10px;
-    transition: 0.5s;
-    box-shadow: 0px 0px 20px #000000;
-    margin: 0 auto;
-    min-width: 360px;
-    max-width: 960px;
-}
 
 ul {
     list-style: none;
@@ -36,6 +34,7 @@ ul#main-menu {
     padding: 0 20px;
     background: rgb(51, 49, 46);
     border-radius: 10px;
+    margin-left: 15px;
 }
 
 ul#main-menu a {
@@ -75,17 +74,12 @@ img {
 .logo {
     margin-left: 20px;
     height: 100%;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     width: 300px;
-    transition: 1.2s;
     border-radius: 10px;
     box-shadow: 0px 0px 20px #000000;
 }
 
-.logo:hover {
-    width: 320px;
-}
 
 .noidung {
     display: flex;
