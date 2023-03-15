@@ -7,21 +7,7 @@ body {
     min-height: 100vh;
 }
 
-/* #mainNavbar {
-    justify-content: center;
-    flex-direction: column;
-} */
 
-/* .navbar.scrolled {
-    background: #E6E6FA;
-    transition: background 500ms;
-    border-radius: 10px;
-    transition: 0.5s;
-    box-shadow: 0px 0px 20px #000000;
-    margin: 0 auto;
-    min-width: 360px;
-    max-width: 960px;
-} */
 
 .noidung {
     display: flex;
@@ -35,7 +21,9 @@ body {
     box-shadow: 0px 0px 20px #000000;
 }
 
+
 .content {
+    margin-bottom: 100px;
     margin-left: 50px;
     background-color: #E6E6FA;
     border-radius: 10px;
@@ -119,13 +107,15 @@ h2 {
     color: #800000;
 }
 
-.tachnoidung {
-    border-radius: 5px;
-    border: 1px solid #598381;
-    width: 200px;
-    margin: 30px;
-    margin-left: 100px;
-    background-color: #598381;
-    margin-top: 80px;
-    margin-bottom: 80px;
+.chuyentrang {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+.chuyentrang:hover {
+    background-color: #E6E6FA;
 }

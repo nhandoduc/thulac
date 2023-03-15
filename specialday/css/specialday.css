@@ -1,0 +1,205 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 2, 5;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+html {
+    font-family: "Nunito", sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+body {
+    background: #708090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    flex-direction: column;
+}
+
+
+.logo {
+    width: 300px;
+    height: 100%;
+    /* margin-top: 50px; */
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+
+.noidung {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8FF;
+    border-radius: 10px;
+    padding: 60px 0;
+    margin-top: 30px;
+    max-width: 960px;
+    min-width: 370px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.noidungbai {
+    padding: 0 40px;
+}
+
+
+.tieude-noidung {
+    text-align: center;
+    font-size: 45px;
+    color: #800000;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+
+.anh-noidung {
+    width: 300px;
+    height: auto !important;
+    border: 2px solid #598381;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+video {
+    width: 300px;
+    height: auto !important;
+    border: 2px solid #598381;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.tieudenho-noidung {
+    text-align: left;
+    font-size: 30px;
+    color: #800000;
+    line-height: 35px;
+}
+
+
+.text-noidung {
+    text-indent: 2.5em;
+    line-height: 30px;
+}
+
+.text-noibat {
+    background-color: #598381;
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fbfbff;
+}
+
+.callout {
+    display: block;
+    background-color: #598381;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: yellow;
+    transition: 1.3s;
+}
+
+.callout:hover,
+.callout:focus {
+    display: block;
+    background-color: #8B0000;
+    height: fit-content;
+}
+
+.tachnoidung {
+    border-radius: 5px;
+    border: 1px solid #598381;
+    width: 150px;
+    margin: 30px auto;
+    align-content: center;
+}
+
+
+
+.ketbai {
+    border-radius: 5px;
+    border: 1px solid #598381;
+    width: 300px;
+    margin-top: 30px;
+    align-content: center;
+}
+
+
+.socials-share {
+    text-align: center;
+}
+
+.socials-share a {
+    padding: 5px 10px;
+    color: #fff;
+    line-height: 2em;
+    text-decoration: none;
+    border-radius: 10px;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 0 25px;
+    margin-top: 25px;
+    align-content: center;
+}
+
+.socials-share span.fa {
+    margin-right: 3px;
+}
+
+.bg-facebook {
+    background: #3a5899;
+}
+
+.bg-facebook:hover,
+.bg-facebook:focus {
+    background: #1d418d;
+}
+
+.bg-twitter {
+    background: #2a99ed;
+}
+
+.bg-twitter:hover,
+.bg-twitter:focus {
+    background: #268ad5;
+}
