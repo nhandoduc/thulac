@@ -90,6 +90,7 @@ body {
     color: #800000;
     line-height: 35px;
     letter-spacing: 2px;
+    margin-bottom: 50px;
 }
 
 .anh-noidung {
@@ -118,6 +119,7 @@ video {
 
 .text-noidung {
     line-height: 30px;
+    margin-top: 50px;
 }
 
 .text-noibat {
