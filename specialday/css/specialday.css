@@ -109,7 +109,7 @@ video {
 }
 
 .tieudenho-noidung {
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     color: #800000;
     line-height: 35px;
@@ -117,7 +117,6 @@ video {
 
 
 .text-noidung {
-    text-indent: 2.5em;
     line-height: 30px;
 }
 
