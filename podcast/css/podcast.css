@@ -1,12 +1,70 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
 body {
+    line-height: 2, 5;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+html {
     font-family: "Nunito", sans-serif;
-    background-color: #708090;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+body {
+    background: #708090;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+
+    flex-direction: column;
 }
 
+
+.logo {
+    width: 300px;
+    height: 100%;
+    /* margin-top: 50px; */
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000;
+}
 
 
 .noidung {
@@ -14,48 +72,11 @@ body {
     flex-direction: column;
     background-color: #F8F8FF;
     border-radius: 10px;
-    padding: 60px 60px 0 0;
+    padding: 60px 0;
     margin-top: 30px;
     max-width: 960px;
     min-width: 370px;
     box-shadow: 0px 0px 20px #000000;
-}
-
-
-.content {
-    margin-bottom: 100px;
-    margin-left: 50px;
-    background-color: #E6E6FA;
-    border-radius: 10px;
-}
-
-.logo {
-    margin-left: 45px;
-    height: 100%;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px #000000;
-}
-
-
-
-
-.tieude-noidung {
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    color: #800000;
-    margin-top: 80px;
-    margin-left: 50px;
-}
-
-.tieudenho-noidung {
-    display: inline-block;
-    text-align: left;
-    margin-left: 50px;
-    font-size: 30px;
-    color: #800000;
-    font-weight: bold;
 }
 
 .noidungbai {
@@ -63,31 +84,42 @@ body {
 }
 
 
-.tennoidungbai {
-    margin-top: 25px;
-    display: block;
-    margin-bottom: 0;
+.tieude-noidung {
+    text-align: center;
+    font-size: 45px;
+    color: #800000;
+    line-height: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
 }
 
-
-.tacgia {
-    margin-left: 50px;
-    display: inline-block;
-    font-size: 20px;
-    font-style: italic;
-}
-
-video {
-    width: 100% !important;
+.anh-noidung {
+    width: 300px;
     height: auto !important;
     border: 2px solid #598381;
     border-radius: 10px;
     box-shadow: 0px 0px 20px #000000;
 }
 
-.text-noidung {
+video {
+    width: 300px;
+    height: auto !important;
+    border: 2px solid #598381;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.tieudenho-noidung {
     text-align: center;
+    font-size: 30px;
+    color: #800000;
+    line-height: 35px;
+}
+
+
+.text-noidung {
     line-height: 30px;
+    margin-top: 50px;
 }
 
 .text-noibat {
@@ -98,24 +130,77 @@ video {
     color: #fbfbff;
 }
 
-h2 {
-    text-align: center;
-    line-height: 35px;
-    letter-spacing: 2px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    color: #800000;
-}
-
-.chuyentrang {
-    border: 1px solid black;
+.callout {
+    display: block;
+    background-color: #598381;
+    padding: 5px 10px;
     border-radius: 10px;
-    background-color: white;
-    margin-top: 50px;
-    margin-bottom: 25px;
-    line-height: 30px;
+    font-weight: bold;
+    color: yellow;
+    transition: 1.3s;
 }
 
-.chuyentrang:hover {
-    background-color: #E6E6FA;
+.callout:hover,
+.callout:focus {
+    display: block;
+    background-color: #8B0000;
+    height: fit-content;
+}
+
+.tachnoidung {
+    border-radius: 5px;
+    border: 1px solid #598381;
+    width: 150px;
+    margin: 30px auto;
+    align-content: center;
+}
+
+
+
+.ketbai {
+    border-radius: 5px;
+    border: 1px solid #598381;
+    width: 300px;
+    margin-top: 30px;
+    align-content: center;
+}
+
+
+.socials-share {
+    text-align: center;
+}
+
+.socials-share a {
+    padding: 5px 10px;
+    color: #fff;
+    line-height: 2em;
+    text-decoration: none;
+    border-radius: 10px;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 0 25px;
+    margin-top: 25px;
+    align-content: center;
+}
+
+.socials-share span.fa {
+    margin-right: 3px;
+}
+
+.bg-facebook {
+    background: #3a5899;
+}
+
+.bg-facebook:hover,
+.bg-facebook:focus {
+    background: #1d418d;
+}
+
+.bg-twitter {
+    background: #2a99ed;
+}
+
+.bg-twitter:hover,
+.bg-twitter:focus {
+    background: #268ad5;
 }
