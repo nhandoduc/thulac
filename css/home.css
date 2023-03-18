@@ -60,7 +60,7 @@ ul#main-menu a:hover {
 
 .content {
     margin-bottom: 100px;
-    margin-left: 50px;
+    margin-left: 45px;
     background-color: #E6E6FA;
     border-radius: 10px;
 }
@@ -131,4 +131,11 @@ video {
 
 .chuyentrang:hover {
     background-color: #E6E6FA;
+}
+
+.lienhe {
+    margin-left: 60px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
