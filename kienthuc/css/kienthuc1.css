@@ -99,7 +99,7 @@ body {
     border: 2px solid #598381;
     border-radius: 10px;
     box-shadow: 0px 0px 20px #000000;
-    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 video {
@@ -108,8 +108,8 @@ video {
     border: 2px solid #598381;
     border-radius: 10px;
     box-shadow: 0px 0px 20px #000000;
-    margin-bottom: 25px;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .tieudenho-noidung {
@@ -122,7 +122,8 @@ video {
 
 .text-noidung {
     line-height: 30px;
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .text-noibat {

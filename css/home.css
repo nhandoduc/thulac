@@ -34,7 +34,7 @@ ul#main-menu {
     padding: 0 20px;
     background: rgb(51, 49, 46);
     border-radius: 10px;
-    margin-left: 2px;
+    margin-bottom: 50px;
 }
 
 ul#main-menu a {
@@ -44,6 +44,7 @@ ul#main-menu a {
     text-decoration: none;
     font-weight: bold;
     transition: 0.8s;
+    margin-left: 5px;
 }
 
 a {
@@ -66,15 +67,17 @@ ul#main-menu a:hover {
 }
 
 img {
+    width: 100% !important;
+    height: auto !important;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px #000000;
+    box-shadow: 0px 0px 20px #000000
 }
 
 .logo {
-    margin-left: 20px;
+    margin-left: 10px;
     height: 100%;
     margin-bottom: 50px;
-    width: 300px;
+    max-width: 300px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px #000000;
 }
@@ -93,13 +96,12 @@ img {
 }
 
 
-h2 {
-    text-align: center;
-    line-height: 35px;
-    letter-spacing: 2px;
-    margin-bottom: 25px;
+.tieudenho-noidung {
     margin-top: 25px;
+    display: inline-block;
+    font-size: 30px;
     color: #800000;
+    font-weight: bold;
 }
 
 h3 {

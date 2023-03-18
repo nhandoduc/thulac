@@ -1,18 +1,92 @@
 body {
+    background: #708090;
     font-family: "Nunito", sans-serif;
-    background-color: #708090;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
+/* .nav {
+    display: block;
+    margin: auto;
+
+} */
+
+#mainNavbar {
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #708090; */
+    margin-left: 10px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul#main-menu {
+    display: flex;
+    padding: 0 20px;
+    background: rgb(51, 49, 46);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+ul#main-menu a {
+    padding: 5px 5px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.8s;
+    margin-left: 5px;
+}
+
+a {
+    text-align: center;
+}
+
+ul#main-menu a:hover {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    background-color: #F0F8FF;
+    border-radius: 10px;
+}
+
+.content {
+    margin-bottom: 100px;
+    margin-left: 45px;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+}
+
+img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000
+}
+
+.logo {
+    margin-left: 10px;
+    height: 100%;
+    margin-bottom: 50px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000;
+}
 
 
 .noidung {
     display: flex;
     flex-direction: column;
-    background-color: #F8F8FF;
+    background-color: white;
     border-radius: 10px;
     padding: 60px 60px 0 0;
     margin-top: 30px;
@@ -22,59 +96,21 @@ body {
 }
 
 
-.content {
-    margin-bottom: 100px;
-    margin-left: 45px;
-    background-color: #E6E6FA;
-    border-radius: 10px;
-}
-
-.logo {
-    margin-left: 45px;
-    height: 100%;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px #000000;
-}
-
-
-
-
-.tieude-noidung {
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    color: #800000;
-    margin-top: 80px;
-    margin-left: 50px;
-}
-
 .tieudenho-noidung {
+    margin-top: 25px;
     display: inline-block;
-    text-align: left;
-    margin-left: 50px;
     font-size: 30px;
     color: #800000;
     font-weight: bold;
 }
 
-.noidungbai {
-    padding: 0 40px;
+h3 {
+    font-weight: bolder;
 }
 
-
-.tennoidungbai {
-    margin-top: 25px;
-    display: block;
-    margin-bottom: 0;
-}
-
-
-.tacgia {
-    margin-left: 50px;
-    display: inline-block;
-    font-size: 20px;
-    font-style: italic;
+.text-noidung {
+    text-align: center;
+    line-height: 30px;
 }
 
 video {
@@ -85,27 +121,6 @@ video {
     box-shadow: 0px 0px 20px #000000;
 }
 
-.text-noidung {
-    text-align: center;
-    line-height: 30px;
-}
-
-.text-noibat {
-    background-color: #598381;
-    padding: 1px 5px;
-    border-radius: 5px;
-    font-weight: bold;
-    color: #fbfbff;
-}
-
-h2 {
-    text-align: center;
-    line-height: 35px;
-    letter-spacing: 2px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    color: #800000;
-}
 
 .chuyentrang {
     border: 1px solid black;
