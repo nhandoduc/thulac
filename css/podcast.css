@@ -7,17 +7,15 @@ body {
     min-height: 100vh;
 }
 
-/* .nav {
-    display: block;
-    margin: auto;
-
-} */
+.tacgia {
+    font-style: italic;
+}
 
 #mainNavbar {
     justify-content: center;
     flex-direction: column;
     /* background-color: #708090; */
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 
@@ -35,6 +33,10 @@ ul#main-menu {
     background: rgb(51, 49, 46);
     border-radius: 10px;
     margin-bottom: 50px;
+}
+
+.tacgia {
+    font-style: italic;
 }
 
 ul#main-menu a {
