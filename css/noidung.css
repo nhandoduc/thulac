@@ -52,20 +52,23 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-
     flex-direction: column;
 }
 
-
 .logo {
-    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 360px;
     height: 100%;
-    /* margin-top: 50px; */
-    margin-bottom: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px #000000;
 }
 
+.tenbai {
+    margin-bottom: 50px;
+    padding: 0 30px;
+}
 
 .noidung {
     display: flex;
@@ -75,21 +78,56 @@ body {
     padding: 60px 0;
     margin-top: 30px;
     max-width: 960px;
-    min-width: 370px;
+    min-width: 360px;
     box-shadow: 0px 0px 20px #000000;
 }
 
 .noidungbai {
-    padding: 0 40px;
+    padding: 0 30px;
 }
 
+.anh-noidung {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 350px;
+    min-width: 300px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000;
+}
 
 .tieude-noidung {
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     color: #800000;
     letter-spacing: 2px;
-    margin-bottom: 50px;
+}
+
+.tacgia {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 0;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+
+#timeupdate {
+    display: block;
+    text-align: center;
+}
+
+.tieudenho-noidung {
+    font-size: 30px;
+    color: #800000;
+    line-height: 35px;
+}
+
+
+.text-noidung {
+    line-height: 30px;
 }
 
 .anh-noidung {
@@ -107,20 +145,6 @@ video {
     border: 2px solid #598381;
     border-radius: 10px;
     box-shadow: 0px 0px 20px #000000;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.tieudenho-noidung {
-    text-align: center;
-    font-size: 30px;
-    color: #800000;
-    line-height: 35px;
-}
-
-
-.text-noidung {
-    line-height: 30px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -165,12 +189,15 @@ video {
     border: 1px solid #598381;
     width: 300px;
     margin-top: 30px;
+    margin-bottom: 30px;
     align-content: center;
 }
 
 
 .socials-share {
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .socials-share a {
@@ -182,13 +209,9 @@ video {
     white-space: nowrap;
     display: inline-block;
     margin: 0 25px;
-    margin-top: 25px;
     align-content: center;
 }
 
-.socials-share span.fa {
-    margin-right: 3px;
-}
 
 .bg-facebook {
     background: #3a5899;
