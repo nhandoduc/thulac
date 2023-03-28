@@ -55,6 +55,62 @@ body {
     flex-direction: column;
 }
 
+#mainNavbar {
+    max-width: 600px;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+.navbar-brand {
+    margin-right: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    text-align: center;
+}
+
+ul#main-menu {
+    display: flex;
+    justify-content: center;
+    background: rgb(51, 49, 46);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding-left: 0px;
+}
+
+ul#main-menu a {
+    padding: 5px 5px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.8s;
+}
+
+a {
+    text-align: center;
+}
+
+ul#main-menu a:hover {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    background-color: #F0F8FF;
+    border-radius: 10px;
+}
+
 .logo {
     max-width: 360px;
     height: 100%;
