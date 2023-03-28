@@ -113,6 +113,7 @@ ul#main-menu a:hover {
 
 .logo {
     max-width: 360px;
+    max-height: 135px;
     height: 100%;
     margin-bottom: 50px;
     border-radius: 10px;
