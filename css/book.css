@@ -55,19 +55,75 @@ body {
     flex-direction: column;
 }
 
-.logo {
+#mainNavbar {
+    max-width: 600px;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+.navbar-brand {
+    margin-right: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    text-align: center;
+}
+
+ul#main-menu {
+    display: flex;
+    justify-content: center;
+    background: rgb(51, 49, 46);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding-left: 0px;
+}
+
+ul#main-menu a {
+    padding: 5px 5px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.8s;
+}
+
+a {
+    text-align: center;
+}
+
+ul#main-menu a:hover {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    background-color: #F0F8FF;
+    border-radius: 10px;
+}
+
+.logo {
     max-width: 360px;
+    max-height: 135px;
     height: 100%;
+    margin-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px #000000;
 }
 
+
 .tenbai {
     margin-bottom: 50px;
-    padding: 0 30px;
+    padding: 0 16px;
 }
 
 .noidung {
@@ -83,7 +139,7 @@ body {
 }
 
 .noidungbai {
-    padding: 0 30px;
+    padding: 0 16px;
 }
 
 .anh-noidung {
@@ -99,17 +155,15 @@ body {
 
 .tieude-noidung {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     color: #800000;
     letter-spacing: 2px;
 }
 
 .tacgia {
     text-align: center;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
-    margin-top: 0;
     line-height: 35px;
     letter-spacing: 2px;
 }
@@ -120,7 +174,7 @@ body {
 }
 
 .tieudenho-noidung {
-    font-size: 30px;
+    font-size: 25px;
     color: #800000;
     line-height: 35px;
 }
@@ -139,6 +193,15 @@ body {
     margin-bottom: 25px;
 }
 
+video {
+    width: 300px;
+    height: auto !important;
+    border: 2px solid #598381;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
 .text-noibat {
     background-color: #598381;
@@ -192,7 +255,7 @@ body {
 }
 
 .socials-share a {
-    padding: 5px 10px;
+    padding: 5px 16px;
     color: #fff;
     line-height: 2em;
     text-decoration: none;
@@ -202,7 +265,6 @@ body {
     margin: 0 25px;
     align-content: center;
 }
-
 
 .bg-facebook {
     background: #3a5899;
