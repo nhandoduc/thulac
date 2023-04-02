@@ -48,4 +48,4 @@ function changePage(i) {
     loadItem();
 }
 
-alert('đang trong quá trình sửa lỗi')
+alert('đang trong quá trình sửa lỗi') // sửa lỗi xong thì xóa cái này
