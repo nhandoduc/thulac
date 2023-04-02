@@ -24,7 +24,7 @@
 <body>
     <main class="noidung">
         <nav id="mainNavbar" class="navbar navbar-expand-md py-0">
-            <a href=" index.html" class="navbar-brand"><img class="logo" id="logo" src="./img/thulac.png"></a>
+            <a href=" ../index.html" class="navbar-brand"><img class="logo" id="logo" src="./img/thulac.png"></a>
 
             <div id="heaer">
                 <ul id="main-menu">
@@ -38,11 +38,10 @@
                 </ul>
             </div>
         </nav>
-        <section style="margin-top: 50px;">
-
+        <section style="margin-top: 50px;" id="list"><!--bắt đầu-->
 
             <!-- bắt đầu bài viết video -->
-            <section class="container-fluid px-0">
+            <section class="container-fluid px-0" id="item">
                 <div class="row align-items-center content">
                     <div class="col-md-6 order-2 order-md-1">
                         <video style="border-radius: 10px " controls>
@@ -79,7 +78,7 @@
             <!-- kết thúc bài viết -->
 
             <!-- bắt đầu bài viết video -->
-            <section class="container-fluid px-0">
+            <section class="container-fluid px-0" id="item">
                 <div class="row align-items-center content">
                     <div class="col-md-6 order-2 order-md-1">
                         <video style="border-radius: 10px " controls>
@@ -116,11 +115,11 @@
             <!-- kết thúc bài viết -->
 
             <!-- bắt đầu bài viết video -->
-            <section class="container-fluid px-0">
+            <section class="container-fluid px-0" id="item">
                 <div class="row align-items-center content">
                     <div class="col-md-6 order-2 order-md-1">
                         <video style="border-radius: 10px " controls>
-                            <source src="video/podcast/3thuocdothanhcong.MP4" type="video/mp4">
+                            <source src="../public/video/podcast/songcuocdoidangsong.MP4" type="video/mp4">
                             <source src="movie.ogg" type="video/ogg">
                         </video>
                     </div>
@@ -152,13 +151,22 @@
             </section>
             <!-- kết thúc bài viết -->
 
-            <!-- liên hệ -->
-            <section class="lienhe">
-                <!-- <p style="color:#153b50;">©Ant</p> -->
-                <p>©Duc Nhan</p>
-                <p>Ducnhan.info@gmail.com</p>
-            </section>
         </section>
+
+        <!-- Phân trang-->
+        <div>
+            <ul class="listPage">
+            </ul>
+            <script src="./js/phantrang.js"></script>
+        </div>
+
+        <!-- liên hệ -->
+        <section class="lienhe">
+
+            <p>©Duc Nhan</p>
+            <p>Ducnhan.info@gmail.com</p>
+        </section>
+
     </main>
 </body>
 

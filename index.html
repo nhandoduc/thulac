@@ -14,9 +14,9 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./public/css/home.css">
     <!-- logo nhỏ -->
-    <link rel="shortcut icon" type="image/png" href="./img/logoant.png" />
+    <link rel="shortcut icon" type="image/png" href="./public/img/logoant.png" />
 
     <title>Thư lạc</title>
 </head>
@@ -24,81 +24,29 @@
 <body>
     <main class="noidung">
         <nav id="mainNavbar" class="navbar navbar-expand-md py-0">
-            <a href=" index.html" class="navbar-brand"><img class="logo" id="logo" src="./img/thulac.png"></a>
+            <a href="index.html" class="navbar-brand"><img class="logo" id="logo" src="./public/img/thulac.png"></a>
 
             <div id="heaer">
                 <ul id="main-menu">
-                    <li class="chi-muc" style="font-size: 20px;"><a href="sach.html">Sách</a></li>
-                    <li class="chi-muc" style="font-size: 20px;"><a href="kienthuc.html">Kiến thức</a></li>
-                    <li class="chi-muc" style=" font-size: 20px;"><a href="podcast.html">Podcast
+                    <li class="chi-muc" style="font-size: 20px;"><a href="./public/sach.html">Sách</a></li>
+                    <li class="chi-muc" style="font-size: 20px;"><a href="./public/kienthuc.html">Kiến thức</a></li>
+                    <li class="chi-muc" style=" font-size: 20px;"><a href="./public/podcast.html">Podcast
                             Highlight</a>
                     </li>
-                    <li class="chi-muc" style="font-size: 20px;"><a href="specialday.html">Special
+                    <li class="chi-muc" style="font-size: 20px;"><a href="./public/specialday.html">Special
                             Day</a></li>
                 </ul>
             </div>
         </nav>
 
-        <section style="margin-top: 50px;">
-
-            <!-- bắt đầu bài viết không video -->
-            <section class="container-fluid px-0">
-                <div class="row align-items-center content">
-                    <div class="col-md-6 order-2 order-md-1">
-                        <img src="./img/book/logopublic.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-md-6 text-center order-2 order-md-2">
-                        <div class="row justify-content-center">
-                            <div class="tennoidungbai">
-                                <h3 class="tieude-noidung">Thư lạc</h3>
-                            </div>
-                            <p class="text-noidung">
-                                Thư lạc - Khởi đầu những ước mơ. Là nơi mà tôi gửi gắm những kiến thức, những kỉ niệm mà
-                                mình đã trải qua. Thư lạc được lấy từ trong cuốn sách "cửa tiệm của những lá thư" và
-                                "những lá thư đến từ tương lai" của tác giả Yashita Katinawa
-                            </p>
-                            <button class="chuyentrang" type="button"><a href="./podcast/podcast copy.html"
-                                    style="text-decoration: none; color: black;">Đọc
-                                    tiếp</a></button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- kết thúc bài viết -->
+        <section style="margin-top: 50px;" id="list"><!--bắt đầu-->
 
             <!-- bắt đầu bài viết video -->
-            <section class="container-fluid px-0">
-                <div class="row align-items-center content">
-                    <div class="col-md-6 order-2 order-md-1">
-                        <img src="./img/book/cuatiemcuanhunglathu.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-md-6 text-center order-2 order-md-2">
-                        <div class="row justify-content-center">
-                            <div class="tennoidungbai">
-                                <h3 class="tieude-noidung">Cửa tiệm của những lá thư</h3>
-                                <p class="tacgia">Yashita Katinawa</p>
-                            </div>
-                            <p class="text-noidung">
-                                Phần lớn khi người ta đánh giá về kẻ khác, họ không xem xét đối phương là một con người
-                                phức tạp với nhiều nét cá tính mà thông thường chỉ dựa vào điểm ấn tượng nhiều nhất còn
-                                sót lại trong suy nghĩ rồi gán cho biệt danh này kia.
-                            </p>
-                            <button class="chuyentrang" type="button"><a href="./book/cuatiemcuanhunglathu.html"
-                                    style="text-decoration: none; color: black;">Đọc
-                                    tiếp</a></button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- kết thúc bài viết -->
-
-
-            <!-- bắt đầu bài viết video -->
-            <section class="container-fluid px-0">
+            <section class="container-fluid px-0" id="item">
                 <div class="row align-items-center content">
                     <div class="col-md-6 order-2 order-md-1">
                         <video style="border-radius: 10px " controls>
-                            <source src="video/podcast/songcuocdoidangsong.MP4" type="video/mp4">
+                            <source src="./public/video/podcast/songcuocdoidangsong.MP4" type="video/mp4">
                             <source src="movie.ogg" type="video/ogg">
                         </video>
                     </div>
@@ -121,6 +69,31 @@
                                 mong muốn lại là <span class="text-noibat">trao đổi</span>. Chính xác là như vậy,
                                 <span class="text-noibat">trao đổi</span> là phương pháp để đạt được điều mình muốn.
                             </p>
+                            <button class="chuyentrang" type="button"><a href="./public/podcast/bathuocdothanhcong.html"
+                                    style="text-decoration: none; color: black;">Đọc
+                                    tiếp</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- kết thúc bài viết -->
+
+            <!-- bắt đầu bài viết không video -->
+            <section class="container-fluid px-0" id="item">
+                <div class="row align-items-center content">
+                    <div class="col-md-6 order-2 order-md-1">
+                        <img src="./public/img/book/logopublic.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 text-center order-2 order-md-2">
+                        <div class="row justify-content-center">
+                            <div class="tennoidungbai">
+                                <h3 class="tieude-noidung">Thư lạc</h3>
+                            </div>
+                            <p class="text-noidung">
+                                Thư lạc - Khởi đầu những ước mơ. Là nơi mà tôi gửi gắm những kiến thức, những kỉ niệm mà
+                                mình đã trải qua. Thư lạc được lấy từ trong cuốn sách "cửa tiệm của những lá thư" và
+                                "những lá thư đến từ tương lai" của tác giả Yashita Katinawa
+                            </p>
                             <button class="chuyentrang" type="button"><a href="./podcast/podcast copy.html"
                                     style="text-decoration: none; color: black;">Đọc
                                     tiếp</a></button>
@@ -130,33 +103,121 @@
             </section>
             <!-- kết thúc bài viết -->
 
-            <!-- bắt đầu bài viết video -->
-            <section class="container-fluid px-0">
+            <!-- bắt đầu bài viết không video -->
+            <section class="container-fluid px-0" id="item">
                 <div class="row align-items-center content">
                     <div class="col-md-6 order-2 order-md-1">
-                        <video style="border-radius: 10px " controls>
-                            <source src="video/podcast/dinhcaocuathanhcong.MP4" type="video/mp4">
-                            <source src="movie.ogg" type="video/ogg">
-                        </video>
+                        <img src="./public/img/book/logopublic.png" alt="" class="img-fluid">
                     </div>
                     <div class="col-md-6 text-center order-2 order-md-2">
                         <div class="row justify-content-center">
                             <div class="tennoidungbai">
-                                <h3 class="tieude-noidung">Đỉnh cao của thành công </h3>
-                                <p class="tacgia">TS. Giản Tư Trung, EduStarion</p>
+                                <h3 class="tieude-noidung">Thư lạc</h3>
                             </div>
                             <p class="text-noidung">
-                                Trên thế giới hiện đại này, tưởng chừng mọi thứ có thể giải quyết được bằng <span
-                                    class="text-noibat">tiền</span>. Và chính bởi lẽ đó, có rất nhiều người cho rằng
-                                tiền là
-                                thứ
-                                tiên
-                                quyết, là thứ mà có thể có được mọi thứ mà họ mong muốn. Nhưng bản chất của việc có
-                                được
-                                thứ
-                                mà mình
-                                mong muốn lại là <span class="text-noibat">trao đổi</span>. Chính xác là như vậy,
-                                <span class="text-noibat">trao đổi</span> là phương pháp để đạt được điều mình muốn.
+                                Thư lạc - Khởi đầu những ước mơ. Là nơi mà tôi gửi gắm những kiến thức, những kỉ niệm mà
+                                mình đã trải qua. Thư lạc được lấy từ trong cuốn sách "cửa tiệm của những lá thư" và
+                                "những lá thư đến từ tương lai" của tác giả Yashita Katinawa
+                            </p>
+                            <button class="chuyentrang" type="button"><a href="./podcast/podcast copy.html"
+                                    style="text-decoration: none; color: black;">Đọc
+                                    tiếp</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- kết thúc bài viết -->
+
+            <!-- bắt đầu bài viết không video -->
+            <section class="container-fluid px-0" id="item">
+                <div class="row align-items-center content">
+                    <div class="col-md-6 order-2 order-md-1">
+                        <img src="./public/img/book/logopublic.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 text-center order-2 order-md-2">
+                        <div class="row justify-content-center">
+                            <div class="tennoidungbai">
+                                <h3 class="tieude-noidung">Thư lạc</h3>
+                            </div>
+                            <p class="text-noidung">
+                                Thư lạc - Khởi đầu những ước mơ. Là nơi mà tôi gửi gắm những kiến thức, những kỉ niệm mà
+                                mình đã trải qua. Thư lạc được lấy từ trong cuốn sách "cửa tiệm của những lá thư" và
+                                "những lá thư đến từ tương lai" của tác giả Yashita Katinawa
+                            </p>
+                            <button class="chuyentrang" type="button"><a href="./podcast/podcast copy.html"
+                                    style="text-decoration: none; color: black;">Đọc
+                                    tiếp</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- kết thúc bài viết -->
+
+            <!-- bắt đầu bài viết không video -->
+            <section class="container-fluid px-0" id="item">
+                <div class="row align-items-center content">
+                    <div class="col-md-6 order-2 order-md-1">
+                        <img src="./public//img/book/logopublic.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 text-center order-2 order-md-2">
+                        <div class="row justify-content-center">
+                            <div class="tennoidungbai">
+                                <h3 class="tieude-noidung">Thư lạc</h3>
+                            </div>
+                            <p class="text-noidung">
+                                Thư lạc - Khởi đầu những ước mơ. Là nơi mà tôi gửi gắm những kiến thức, những kỉ niệm mà
+                                mình đã trải qua. Thư lạc được lấy từ trong cuốn sách "cửa tiệm của những lá thư" và
+                                "những lá thư đến từ tương lai" của tác giả Yashita Katinawa
+                            </p>
+                            <button class="chuyentrang" type="button"><a href="./podcast/podcast copy.html"
+                                    style="text-decoration: none; color: black;">Đọc
+                                    tiếp</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- kết thúc bài viết -->
+
+            <!-- bắt đầu bài viết không video -->
+            <section class="container-fluid px-0" id="item">
+                <div class="row align-items-center content">
+                    <div class="col-md-6 order-2 order-md-1">
+                        <img src="./public/img/book/logopublic.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 text-center order-2 order-md-2">
+                        <div class="row justify-content-center">
+                            <div class="tennoidungbai">
+                                <h3 class="tieude-noidung">Thư lạc</h3>
+                            </div>
+                            <p class="text-noidung">
+                                Thư lạc - Khởi đầu những ước mơ. Là nơi mà tôi gửi gắm những kiến thức, những kỉ niệm mà
+                                mình đã trải qua. Thư lạc được lấy từ trong cuốn sách "cửa tiệm của những lá thư" và
+                                "những lá thư đến từ tương lai" của tác giả Yashita Katinawa
+                            </p>
+                            <button class="chuyentrang" type="button"><a href="./podcast/podcast copy.html"
+                                    style="text-decoration: none; color: black;">Đọc
+                                    tiếp</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- kết thúc bài viết -->
+
+            <!-- bắt đầu bài viết không video -->
+            <section class="container-fluid px-0" id="item">
+                <div class="row align-items-center content">
+                    <div class="col-md-6 order-2 order-md-1">
+                        <img src="./public/img/book/logopublic.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 text-center order-2 order-md-2">
+                        <div class="row justify-content-center">
+                            <div class="tennoidungbai">
+                                <h3 class="tieude-noidung">Thư lạc</h3>
+                            </div>
+                            <p class="text-noidung">
+                                Thư lạc - Khởi đầu những ước mơ. Là nơi mà tôi gửi gắm những kiến thức, những kỉ niệm mà
+                                mình đã trải qua. Thư lạc được lấy từ trong cuốn sách "cửa tiệm của những lá thư" và
+                                "những lá thư đến từ tương lai" của tác giả Yashita Katinawa
                             </p>
                             <button class="chuyentrang" type="button"><a href="./podcast/podcast copy.html"
                                     style="text-decoration: none; color: black;">Đọc
@@ -168,34 +229,23 @@
             <!-- kết thúc bài viết -->
 
             <!-- bắt đầu bài viết video -->
-            <section class="container-fluid px-0">
+            <section class="container-fluid px-0" id="item">
                 <div class="row align-items-center content">
                     <div class="col-md-6 order-2 order-md-1">
-                        <video style="border-radius: 10px " controls>
-                            <source src="video/podcast/3thuocdothanhcong.MP4" type="video/mp4">
-                            <source src="movie.ogg" type="video/ogg">
-                        </video>
+                        <img src="./public/img/book/cuatiemcuanhunglathu.png" alt="" class="img-fluid">
                     </div>
                     <div class="col-md-6 text-center order-2 order-md-2">
                         <div class="row justify-content-center">
                             <div class="tennoidungbai">
-                                <h3 class="tieude-noidung">Ba thước đo thành công</h3>
-                                <p class="tacgia">TS. Giản Tư Trung, EduStarion</p>
+                                <h3 class="tieude-noidung">Cửa tiệm của những lá thư</h3>
+                                <p class="tacgia">Yashita Katinawa</p>
                             </div>
                             <p class="text-noidung">
-                                Trên thế giới hiện đại này, tưởng chừng mọi thứ có thể giải quyết được bằng <span
-                                    class="text-noibat">tiền</span>. Và chính bởi lẽ đó, có rất nhiều người cho rằng
-                                tiền là
-                                thứ
-                                tiên
-                                quyết, là thứ mà có thể có được mọi thứ mà họ mong muốn. Nhưng bản chất của việc có
-                                được
-                                thứ
-                                mà mình
-                                mong muốn lại là <span class="text-noibat">trao đổi</span>. Chính xác là như vậy,
-                                <span class="text-noibat">trao đổi</span> là phương pháp để đạt được điều mình muốn.
+                                Phần lớn khi người ta đánh giá về kẻ khác, họ không xem xét đối phương là một con người
+                                phức tạp với nhiều nét cá tính mà thông thường chỉ dựa vào điểm ấn tượng nhiều nhất còn
+                                sót lại trong suy nghĩ rồi gán cho biệt danh này kia.
                             </p>
-                            <button class="chuyentrang" type="button"><a href="./podcast/podcast copy.html"
+                            <button class="chuyentrang" type="button"><a href="./book/cuatiemcuanhunglathu.html"
                                     style="text-decoration: none; color: black;">Đọc
                                     tiếp</a></button>
                         </div>
@@ -204,13 +254,23 @@
             </section>
             <!-- kết thúc bài viết -->
 
-            <!-- liên hệ -->
-            <section class="lienhe">
-                <!-- <p style="color:#153b50;">©Ant</p> -->
-                <p>©Duc Nhan</p>
-                <p>Ducnhan.info@gmail.com</p>
-            </section>
         </section>
+
+        <!-- Phân trang-->
+        <div>
+            <ul class="listPage">
+            </ul>
+            <script src="./public/js/phantrang.js"></script>
+        </div>
+
+        <!-- liên hệ -->
+        <section class="lienhe">
+
+            <p>©Duc Nhan</p>
+            <p>Ducnhan.info@gmail.com</p>
+        </section>
+
+
     </main>
 </body>
 

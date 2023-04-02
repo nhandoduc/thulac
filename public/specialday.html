@@ -18,13 +18,13 @@
     <!-- logo nhỏ -->
     <link rel="shortcut icon" type="image/png" href="./img/logoant.png" />
 
-    <title>Sách</title>
+    <title>Specialday</title>
 </head>
 
 <body>
     <main class="noidung">
         <nav id="mainNavbar" class="navbar navbar-expand-md py-0">
-            <a href=" index.html" class="navbar-brand"><img class="logo" id="logo" src="./img/thulac.png"></a>
+            <a href=" ../index.html" class="navbar-brand"><img class="logo" id="logo" src="./img/thulac.png"></a>
 
             <div id="heaer">
                 <ul id="main-menu">
@@ -39,26 +39,25 @@
             </div>
         </nav>
 
-        <section style="margin-top: 50px;">
+        <section style="margin-top: 50px;" id="list"><!--bắt đầu-->
 
             <!-- bắt đầu bài viết không video -->
-            <section class="container-fluid px-0">
+            <section class="container-fluid px-0" id="item">
                 <div class="row align-items-center content">
                     <div class="col-md-6 order-2 order-md-1">
-                        <img src="./img/book/cuatiemcuanhunglathu.png" alt="" class="img-fluid">
+                        <img src="./img/book/logopublic.png" alt="" class="img-fluid">
                     </div>
                     <div class="col-md-6 text-center order-2 order-md-2">
                         <div class="row justify-content-center">
                             <div class="tennoidungbai">
-                                <h3 class="tieudenho-noidung">Cửa tiệm của những lá thư</h3>
-                                <p class="tacgia">TS. Giản Tư Trung, EduStarion</p>
+                                <h3 class="tieudenho-noidung">Thư lạc</h3>
                             </div>
                             <p class="text-noidung">
-                                Phần lớn khi người ta đánh giá về kẻ khác, họ không xem xét đối phương là một con người
-                                phức tạp với nhiều nét cá tính mà thông thường chỉ dựa vào điểm ấn tượng nhiều nhất còn
-                                sót lại trong suy nghĩ rồi gán cho biệt danh này kia.
+                                Thư lạc - Khởi đầu những ước mơ. Là nơi mà tôi gửi gắm những kiến thức, những kỉ niệm mà
+                                mình đã trải qua. Thư lạc được lấy từ trong cuốn sách "cửa tiệm của những lá thư" và
+                                "những lá thư đến từ tương lai" của tác giả Yashita Katinawa
                             </p>
-                            <button class="chuyentrang" type="button"><a href="./book/cuatiemcuanhunglathu.html"
+                            <button class="chuyentrang" type="button"><a href="./specialday/dongdo.html"
                                     style="text-decoration: none; color: black;">Đọc
                                     tiếp</a></button>
                         </div>
@@ -67,19 +66,22 @@
             </section>
             <!-- kết thúc bài viết -->
 
-
-
-
-
-
-            <!-- liên hệ -->
-            <section class="lienhe">
-
-                <p>©Duc Nhan</p>
-                <p>Ducnhan.info@gmail.com</p>
-            </section>
-
         </section>
+
+        <!-- Phân trang-->
+        <div>
+            <ul class="listPage">
+            </ul>
+            <script src="./js/phantrang.js"></script>
+        </div>
+
+        <!-- liên hệ -->
+        <section class="lienhe">
+
+            <p>©Duc Nhan</p>
+            <p>Ducnhan.info@gmail.com</p>
+        </section>
+
     </main>
 </body>
 

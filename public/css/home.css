@@ -10,7 +10,6 @@ body {
 .tacgia {
     font-style: italic;
     font-size: 18px;
-
     text-align: center;
     font-size: 18px;
     font-style: italic;
@@ -110,7 +109,7 @@ ul#main-menu a:hover {
 
 
 .text-noidung {
-    text-align: center;
+    text-align: justify;
     line-height: 30px;
 }
 
@@ -141,6 +140,30 @@ video {
 
 .chuyentrang:hover {
     background-color: #E6E6FA;
+}
+
+
+
+.listPage {
+    text-align: center;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 50px;
+}
+
+.listPage li {
+    background-color: #E6E6FA;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.listPage .active {
+    background-color: #F4A460;
+    color: #ffffff;
 }
 
 .lienhe {
