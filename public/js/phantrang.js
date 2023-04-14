@@ -48,3 +48,5 @@ function changePage(i) {
     loadItem();
     window.scrollTo(0, 0);
 }
+
+alert('đang fix lỗi xem trên điện thoại')
