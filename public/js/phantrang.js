@@ -48,5 +48,3 @@ function changePage(i) {
     loadItem();
     window.scrollTo(0, 0);
 }
-
-alert('đang trong quá trình sửa lỗi') // sửa lỗi xong thì xóa cái này
