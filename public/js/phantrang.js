@@ -54,3 +54,7 @@ function changePage(i) {
 function openPDF() {
     window.open('../filepdf/decuongppnckh.pdf');
 }
+
+
+
+
