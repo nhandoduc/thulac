@@ -48,3 +48,9 @@ function changePage(i) {
     loadItem();
     window.scrollTo(0, 0);
 }
+
+//xem pdf//
+
+function openPDF() {
+    window.open('../filepdf/decuongppnckh.pdf');
+}

@@ -264,6 +264,18 @@ video {
     margin-right: auto;
 }
 
+.viewpdf {
+    width: fit-content;
+    padding: 2px;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: palegoldenrod;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 textarea {
     margin-left: 40px;
     margin-right: 40px;
