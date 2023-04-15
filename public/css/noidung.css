@@ -247,6 +247,10 @@ video {
     align-content: center;
 }
 
+#graphcomment {
+    padding-left: 16px;
+    padding-right: 16px;
+}
 
 .socials-share {
     text-align: center;
